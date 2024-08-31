@@ -2,6 +2,9 @@
 # It can be edited online at https://dandiarchive.org/dandiset/001187
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json
+about:
+- name: Medial Temporal Lobe
+  schemaKey: GenericType
 access:
 - schemaKey: AccessRequirements
   status: dandi:EmbargoedAccess
@@ -9,11 +12,73 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Daume et al. (2024) "Persistent activity during working memory maintenance
-  predicts long-term memory formation in the human hippocampus" (2024). (Version draft)
-  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001187/draft
+citation: 'Sophia Cheng; Jonathan Daume; Ueli Rutishauser (2024) Data for: Daume et
+  al. (2024) "Persistent activity during working memory maintenance predicts long-term
+  memory formation in the human hippocampus" (Version draft) [Data set]. DANDI archive.
+  https://dandiarchive.org/dandiset/001187/draft'
 contributor:
+- includeInCitation: true
+  name: Sophia Cheng
+  roleName:
+  - dcite:DataCurator
+  - dcite:DataManager
+  - dcite:Validation
+  schemaKey: Person
+- email: jonathan.daume@gmail.com
+  identifier: 0000-0002-6516-7288
+  includeInCitation: true
+  name: Jonathan Daume
+  roleName:
+  - dcite:Author
+  - dcite:DataCollector
+  - dcite:DataCurator
+  - dcite:DataManager
+  - dcite:FormalAnalysis
+  - dcite:FundingAcquisition
+  - dcite:Investigation
+  - dcite:Methodology
+  - dcite:Researcher
+  - dcite:Software
+  - dcite:Visualization
+  schemaKey: Person
+- includeInCitation: false
+  name: Jan Kamiński
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: false
+  name: Yousef Salimpour
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: false
+  name: Andrea Gómez Palacio Schjetnan
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: false
+  name: William S. Anderson
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: false
+  name: Taufik A. Valiante
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: false
+  name: Adam N. Mamelak
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- email: ueli.rutishauser@cshs.org
+  includeInCitation: true
+  name: Ueli Rutishauser
+  roleName:
+  - dcite:Author
+  schemaKey: Person
 - awardNumber: 5 U01 NS 117839-04
+  includeInCitation: false
   name: National Institutes of Health (NIH)
   roleName:
   - dcite:Funder
@@ -31,14 +96,35 @@ description: Working Memory (WM) and Long-Term Memory (LTM) are often viewed as 
   was high while they were maintained in WM. Our study suggests that hippocampal persistent
   activity of the same cell supports both WM maintenance and LTM encoding, thereby
   revealing a common single-neuron component of these two memory systems.
+ethicsApproval: []
 id: DANDI:001187/draft
 identifier: DANDI:001187
+keywords:
+- cognitive neuroscience
+- single units
+- human electrophysiology
+- working memory
+- long-term memory
+- open source
+- NWB
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001187/versions/draft/assets/
-name: Daume et al. (2024) "Persistent activity during working memory maintenance predicts
-  long-term memory formation in the human hippocampus"
+name: 'Data for: Daume et al. (2024) "Persistent activity during working memory maintenance
+  predicts long-term memory formation in the human hippocampus"'
+protocol: []
+relatedResource:
+- name: Persistent activity during working memory maintenance predicts long-term memory
+    formation in the human hippocampus
+  relation: dcite:IsSourceOf
+  repository: BioRxiv
+  schemaKey: Resource
+  url: https://www.biorxiv.org/content/10.1101/2024.07.15.603630v1
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
+studyTarget: []
 url: https://dandiarchive.org/dandiset/001187/draft
 version: draft
+wasGeneratedBy: []

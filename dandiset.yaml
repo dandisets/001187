@@ -12,18 +12,11 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: 'Sophia Cheng; Jonathan Daume; Ueli Rutishauser (2024) Data for: Daume et
+citation: 'Jonathan Daume; Sophia Cheng; Ueli Rutishauser (2024) Data for: Daume et
   al. (2024) "Persistent activity during working memory maintenance predicts long-term
   memory formation in the human hippocampus" (Version draft) [Data set]. DANDI archive.
   https://dandiarchive.org/dandiset/001187/draft'
 contributor:
-- includeInCitation: true
-  name: Sophia Cheng
-  roleName:
-  - dcite:DataCurator
-  - dcite:DataManager
-  - dcite:Validation
-  schemaKey: Person
 - email: jonathan.daume@gmail.com
   identifier: 0000-0002-6516-7288
   includeInCitation: true
@@ -40,6 +33,13 @@ contributor:
   - dcite:Researcher
   - dcite:Software
   - dcite:Visualization
+  schemaKey: Person
+- includeInCitation: true
+  name: Sophia Cheng
+  roleName:
+  - dcite:DataCurator
+  - dcite:DataManager
+  - dcite:Validation
   schemaKey: Person
 - includeInCitation: false
   name: Jan Kamiński

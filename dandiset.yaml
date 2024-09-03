@@ -9,9 +9,29 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:EmbargoedAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 17162859888
+  numberOfFiles: 38
+  numberOfSubjects: 32
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
+    name: Homo sapiens - Human
+    schemaKey: SpeciesType
+  variableMeasured:
+  - Units
+  - ElectrodeGroup
 citation: 'Jonathan Daume; Sophia Cheng; Ueli Rutishauser (2024) Data for: Daume et
   al. (2024) "Persistent activity during working memory maintenance predicts long-term
   memory formation in the human hippocampus" (Version draft) [Data set]. DANDI archive.
@@ -84,7 +104,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-08-30T18:53:10.935242+00:00'
-description: Working Memory (WM) and Long-Term Memory (LTM) are often viewed as separate
+description: 'Working Memory (WM) and Long-Term Memory (LTM) are often viewed as separate
   cognitive  systems.  Little  is  known  about  how  these  systems  interact  when  forming
   memories. We recorded single neurons in the human medial temporal lobe while patients
   maintained novel items in WM and a subsequent recognition memory test for the same
@@ -96,6 +116,10 @@ description: Working Memory (WM) and Long-Term Memory (LTM) are often viewed as 
   was high while they were maintained in WM. Our study suggests that hippocampal persistent
   activity of the same cell supports both WM maintenance and LTM encoding, thereby
   revealing a common single-neuron component of these two memory systems.
+
+
+  Note: sub-35_ses-1 is missing waveform mean/std data, but they can be derived from
+  the raw spike waveforms included in the file.'
 ethicsApproval: []
 id: DANDI:001187/draft
 identifier: DANDI:001187

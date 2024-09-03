@@ -21,9 +21,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 17162859888
-  numberOfFiles: 38
-  numberOfSubjects: 32
+  numberOfBytes: 17848198516
+  numberOfFiles: 39
+  numberOfSubjects: 33
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
@@ -118,8 +118,8 @@ description: 'Working Memory (WM) and Long-Term Memory (LTM) are often viewed as
   revealing a common single-neuron component of these two memory systems.
 
 
-  Note: sub-35_ses-1 is missing waveform mean/std data, but they can be derived from
-  the raw spike waveforms included in the file.'
+  Note: sub-35_ses-1_ecephys+image.nwb is missing waveform mean/std data, but they
+  can be derived from the raw spike waveforms included in the file.'
 ethicsApproval: []
 id: DANDI:001187/draft
 identifier: DANDI:001187

@@ -38,8 +38,8 @@ assetsSummary:
   - ElectrodeGroup
 citation: 'Daume, Jonathan; Cheng, Sophia; Rutishauser, Ueli (2024) Data for: Daume
   et al. (2024) "Persistent activity during working memory maintenance predicts long-term
-  memory formation in the human hippocampus" (Version draft) [Data set]. DANDI archive.
-  https://dandiarchive.org/dandiset/001187/draft'
+  memory formation in the human hippocampus" (Version 0.240904.2347) [Data set]. DANDI
+  archive. https://doi.org/10.48324/dandi.001187/0.240904.2347'
 contributor:
 - email: jonathan.daume@gmail.com
   identifier: 0000-0002-6516-7288
@@ -130,8 +130,9 @@ description: "This dataset contains the source data for Daume et al. (2024) \"Pe
   revealing a common single-neuron component of these two memory systems.\n\nNote:
   \nsub-35_ses-1_ecephys+image.nwb is missing waveform mean/std data, but they can
   be derived from the raw spike waveforms included in the file."
+doi: 10.48324/dandi.001187/0.240904.2347
 ethicsApproval: []
-id: DANDI:001187/draft
+id: DANDI:001187/0.240904.2347
 identifier: DANDI:001187
 keywords:
 - cognitive neuroscience
@@ -144,7 +145,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001187/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001187/0.240904.2347/assets.yaml
 name: 'Data for: Daume et al. (2024) "Persistent activity during working memory maintenance
   predicts long-term memory formation in the human hippocampus"'
 protocol: []
@@ -171,6 +172,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
 studyTarget: []
-url: https://dandiarchive.org/dandiset/001187/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001187/0.240904.2347
+version: 0.240904.2347
 wasGeneratedBy: []

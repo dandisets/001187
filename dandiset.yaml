@@ -17,13 +17,13 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 17848198516
-  numberOfFiles: 39
-  numberOfSubjects: 33
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 16069126570
+  numberOfFiles: 35
+  numberOfSubjects: 29
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606

@@ -7,7 +7,7 @@ about:
   schemaKey: GenericType
 access:
 - schemaKey: AccessRequirements
-  status: dandi:EmbargoedAccess
+  status: dandi:OpenAccess
 acknowledgement: We thank the staff and physicians of the Epilepsy Monitoring Unit
   at Cedars-Sinai Medical Center for assistance, all patients and their families for
   their participation, Michael Kyzar, Nand Chandravadia, and Ian Reucroft for spike
@@ -36,15 +36,15 @@ assetsSummary:
   variableMeasured:
   - Units
   - ElectrodeGroup
-citation: 'Jonathan Daume; Sophia Cheng; Ueli Rutishauser (2024) Data for: Daume et
-  al. (2024) "Persistent activity during working memory maintenance predicts long-term
+citation: 'Daume, Jonathan; Cheng, Sophia; Rutishauser, Ueli (2024) Data for: Daume
+  et al. (2024) "Persistent activity during working memory maintenance predicts long-term
   memory formation in the human hippocampus" (Version draft) [Data set]. DANDI archive.
   https://dandiarchive.org/dandiset/001187/draft'
 contributor:
 - email: jonathan.daume@gmail.com
   identifier: 0000-0002-6516-7288
   includeInCitation: true
-  name: Jonathan Daume
+  name: Daume, Jonathan
   roleName:
   - dcite:Author
   - dcite:DataCollector
@@ -58,48 +58,51 @@ contributor:
   - dcite:Software
   - dcite:Visualization
   schemaKey: Person
-- includeInCitation: true
-  name: Sophia Cheng
+- identifier: 0009-0006-0799-2390
+  includeInCitation: true
+  name: Cheng, Sophia
   roleName:
   - dcite:DataCurator
   - dcite:DataManager
   - dcite:Validation
   schemaKey: Person
 - includeInCitation: false
-  name: Jan Kaminski
+  name: Kaminski, Jan
   roleName:
   - dcite:Author
   schemaKey: Person
 - includeInCitation: false
-  name: Yousef Salimpour
+  name: Salimpour, Yousef
   roleName:
   - dcite:Author
   schemaKey: Person
 - includeInCitation: false
-  name: Andrea Gomez Palacio Schjetnan
+  name: Schjetnan, Andrea G. P.
   roleName:
   - dcite:Author
   schemaKey: Person
 - includeInCitation: false
-  name: William S. Anderson
+  name: Anderson, William S.
   roleName:
   - dcite:Author
   schemaKey: Person
 - includeInCitation: false
-  name: Taufik A. Valiante
+  name: Valiante, Taufik A.
   roleName:
   - dcite:Author
   schemaKey: Person
 - includeInCitation: false
-  name: Adam N. Mamelak
+  name: Mamelak, Adam N.
   roleName:
   - dcite:Author
   schemaKey: Person
 - email: ueli.rutishauser@cshs.org
+  identifier: 0000-0002-9207-7069
   includeInCitation: true
-  name: Ueli Rutishauser
+  name: Rutishauser, Ueli
   roleName:
   - dcite:Author
+  - dcite:ContactPerson
   schemaKey: Person
 - awardNumber: 5 U01 NS 117839-04
   includeInCitation: false
@@ -108,6 +111,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-08-30T18:53:10.935242+00:00'
+datePublished: '2024-09-04T23:47:35.298488+00:00'
 description: "This dataset contains the source data for Daume et al. (2024) \"Persistent
   activity during working memory maintenance predicts long-term memory formation in
   the human hippocampus\". Example code to analyze the data is deposited at Github
@@ -144,6 +148,18 @@ manifestLocation:
 name: 'Data for: Daume et al. (2024) "Persistent activity during working memory maintenance
   predicts long-term memory formation in the human hippocampus"'
 protocol: []
+publishedBy:
+  endDate: '2024-09-04T23:47:35.298488+00:00'
+  id: urn:uuid:ef9e57f7-fd38-4e5f-bdd1-42d2ec53d4a7
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2024-09-04T23:47:35.298488+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:c08f5356-8714-47ad-a47e-9c93e0cfe237
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - name: Persistent activity during working memory maintenance predicts long-term memory
     formation in the human hippocampus
@@ -151,14 +167,6 @@ relatedResource:
   repository: BioRxiv
   schemaKey: Resource
   url: https://www.biorxiv.org/content/10.1101/2024.07.15.603630v1
-- identifier: 10.5281/zenodo.13621888
-  name: 'Sample code for: Daume et al. (2024) Persistent activity during working memory
-    maintenance predicts long-term memory formation in the human hippocampus'
-  relation: dcite:IsSupplementTo
-  repository: Zenodo
-  resourceType: dcite:Software
-  schemaKey: Resource
-  url: https://doi.org/10.5281/zenodo.13621888
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8

@@ -110,21 +110,22 @@ contributor:
 dateCreated: '2024-08-30T18:53:10.935242+00:00'
 description: "This dataset contains the source data for Daume et al. (2024) \"Persistent
   activity during working memory maintenance predicts long-term memory formation in
-  the human hippocampus\".\n\nAbstract:\nWorking Memory (WM) and Long-Term Memory
-  (LTM) are often viewed as separate cognitive  systems.  Little  is  known  about
-  \ how  these  systems  interact  when  forming memories. We recorded single neurons
-  in the human medial temporal lobe while patients maintained novel items in WM and
-  a subsequent recognition memory test for the same items. In the hippocampus but
-  not the amygdala, the level of WM content-selective persist activity during WM maintenance
-  was predictive of whether the item was later recognized with high confidence or
-  forgotten. In contrast, visually evoked activity in the same cells was not predictive
-  of LTM formation. During LTM retrieval, memory-selective neurons responded more
-  strongly to familiar stimuli for which persistent activity was high while they were
-  maintained in WM. Our study suggests that hippocampal persistent activity of the
-  same cell supports both WM maintenance and LTM encoding, thereby revealing a common
-  single-neuron component of these two memory systems.\n\nNote: \nsub-35_ses-1_ecephys+image.nwb
-  is missing waveform mean/std data, but they can be derived from the raw spike waveforms
-  included in the file."
+  the human hippocampus\". Example code to analyze the data is deposited at Github
+  (https://github.com/rutishauserlab/SBCAT-NO-release-NWB) and Zenodo (https://doi.org/10.5281/zenodo.13621888).\n\nAbstract:\nWorking
+  Memory (WM) and Long-Term Memory (LTM) are often viewed as separate cognitive  systems.
+  \ Little  is  known  about  how  these  systems  interact  when  forming memories.
+  We recorded single neurons in the human medial temporal lobe while patients maintained
+  novel items in WM and a subsequent recognition memory test for the same items. In
+  the hippocampus but not the amygdala, the level of WM content-selective persist
+  activity during WM maintenance was predictive of whether the item was later recognized
+  with high confidence or forgotten. In contrast, visually evoked activity in the
+  same cells was not predictive of LTM formation. During LTM retrieval, memory-selective
+  neurons responded more strongly to familiar stimuli for which persistent activity
+  was high while they were maintained in WM. Our study suggests that hippocampal persistent
+  activity of the same cell supports both WM maintenance and LTM encoding, thereby
+  revealing a common single-neuron component of these two memory systems.\n\nNote:
+  \nsub-35_ses-1_ecephys+image.nwb is missing waveform mean/std data, but they can
+  be derived from the raw spike waveforms included in the file."
 ethicsApproval: []
 id: DANDI:001187/draft
 identifier: DANDI:001187
@@ -150,6 +151,14 @@ relatedResource:
   repository: BioRxiv
   schemaKey: Resource
   url: https://www.biorxiv.org/content/10.1101/2024.07.15.603630v1
+- identifier: 10.5281/zenodo.13621888
+  name: 'Sample code for: Daume et al. (2024) Persistent activity during working memory
+    maintenance predicts long-term memory formation in the human hippocampus'
+  relation: dcite:IsSupplementTo
+  repository: Zenodo
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://doi.org/10.5281/zenodo.13621888
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
